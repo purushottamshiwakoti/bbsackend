@@ -97,7 +97,7 @@ module.exports = ({ env }) => ({
     connection: {
       host: env("DATABASE_HOST", "localhost"),
       port: env.int("DATABASE_PORT", 5432),
-      database: env("DATABASE_NAME", "news"),
+      database: env("DATABASE_NAME", "bbs"),
       user: env("DATABASE_USERNAME", "postgres"),
       password: env("DATABASE_PASSWORD", "puru"),
       schema: env("DATABASE_SCHEMA", "public"), // Not required
