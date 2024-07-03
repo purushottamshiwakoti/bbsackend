@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_reusable_socials",
+  "info": {
+    "displayName": "Social"
+  },
+  "options": {},
+  "attributes": {
+    "Facebook": {
+      "type": "string",
+      "required": true
+    },
+    "Twitter": {
+      "type": "string",
+      "required": true
+    },
+    "Instagram": {
+      "type": "string",
+      "required": true
+    },
+    "Google": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

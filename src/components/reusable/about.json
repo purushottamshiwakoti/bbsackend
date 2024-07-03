@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_reusable_abouts",
+  "info": {
+    "displayName": "About"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Alt": {
+      "type": "string",
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Text1": {
+      "type": "string",
+      "required": true
+    },
+    "Description1": {
+      "type": "text",
+      "required": true
+    },
+    "Text2": {
+      "type": "string",
+      "required": true
+    },
+    "Description2": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
