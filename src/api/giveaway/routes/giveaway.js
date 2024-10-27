@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * footer router
+ * giveaway router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::footer.footer');
+module.exports = createCoreRouter('api::giveaway.giveaway');

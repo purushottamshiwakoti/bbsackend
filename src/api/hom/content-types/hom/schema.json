@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "homs",
+  "info": {
+    "singularName": "hom",
+    "pluralName": "homs",
+    "displayName": "Hom"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.hero"
+    }
+  }
+}

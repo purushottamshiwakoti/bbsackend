@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "giveaways",
+  "info": {
+    "singularName": "giveaway",
+    "pluralName": "giveaways",
+    "displayName": "Giveaway"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fullName": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "countryName": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "collectionName": "components_reusable_seos",
+  "info": {
+    "displayName": "SEO",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "MetaTitle": {
+      "type": "string",
+      "required": true
+    },
+    "MetaDescription": {
+      "type": "text",
+      "required": true
+    },
+    "OgImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "CanonicalUrl": {
+      "type": "string",
+      "required": true
+    },
+    "Schema": {
+      "type": "text"
+    },
+    "ReviewSchema": {
+      "type": "text"
+    },
+    "ImageSchema": {
+      "type": "text"
+    },
+    "ImagePackSchema": {
+      "type": "text"
+    },
+    "VideoSchema": {
+      "type": "text"
+    },
+    "FeaturedSchema": {
+      "type": "text"
+    },
+    "RelatedSearchSchema": {
+      "type": "text"
+    },
+    "PeopleAlsoAskSchema": {
+      "type": "text"
+    },
+    "BreadcrumbSchema": {
+      "type": "text"
+    },
+    "OrganizationSchema": {
+      "type": "text",
+      "default": "{   \"@context\": \"https://schema.org\",   \"@type\": \"Organization\",   \"name\": \"BBS Tutorial\",   \"alternateName\": \"BBSTutorial\",   \"url\": \"https://www.bbstutorial.com\",   \"logo\": \"https://www.bbstutorial.com/logo.png\",   \"sameAs\": [     \"https://www.facebook.com/bbstutorial\",     \"https://www.instagram.com/bbstutorial/\",     \"https://www.youtube.com/@bbs-tutorial\"   ] }"
+    },
+    "view": {
+      "type": "string",
+      "default": "10"
+    }
+  }
+}
