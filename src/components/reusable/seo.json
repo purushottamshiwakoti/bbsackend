@@ -18,7 +18,9 @@
       "type": "media",
       "multiple": false,
       "required": true,
-      "allowedTypes": ["images"]
+      "allowedTypes": [
+        "images"
+      ]
     },
     "CanonicalUrl": {
       "type": "string",
@@ -54,6 +56,9 @@
     "OrganizationSchema": {
       "type": "text",
       "default": "{   \"@context\": \"https://schema.org\",   \"@type\": \"Organization\",   \"name\": \"BBS Tutorial\",   \"alternateName\": \"BBSTutorial\",   \"url\": \"https://www.bbstutorial.com\",   \"logo\": \"https://www.bbstutorial.com/logo.png\",   \"sameAs\": [     \"https://www.facebook.com/bbstutorial\",     \"https://www.instagram.com/bbstutorial/\",     \"https://www.youtube.com/@bbs-tutorial\"   ] }"
+    },
+    "view": {
+      "type": "biginteger"
     }
   }
 }

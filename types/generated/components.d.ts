@@ -109,6 +109,7 @@ export interface ReusableSeo extends Schema.Component {
     BreadcrumbSchema: Attribute.Text;
     OrganizationSchema: Attribute.Text &
       Attribute.DefaultTo<'{   "@context": "https://schema.org",   "@type": "Organization",   "name": "BBS Tutorial",   "alternateName": "BBSTutorial",   "url": "https://www.bbstutorial.com",   "logo": "https://www.bbstutorial.com/logo.png",   "sameAs": [     "https://www.facebook.com/bbstutorial",     "https://www.instagram.com/bbstutorial/",     "https://www.youtube.com/@bbs-tutorial"   ] }'>;
+    view: Attribute.BigInteger;
   };
 }
 
